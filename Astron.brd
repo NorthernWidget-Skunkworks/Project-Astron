@@ -166,6 +166,16 @@
 <wire x1="17.633" y1="17.99" x2="15.125" y2="19.99" width="0" layer="20" curve="90"/>
 <wire x1="15.125" y1="19.99" x2="2" y2="19.99" width="0" layer="20"/>
 <wire x1="2" y1="19.99" x2="0" y2="17.99" width="0" layer="20" curve="90"/>
+<text x="16.129" y="1.397" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Project 
+Astron</text>
+<text x="7.874" y="17.399" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Bobby Schulz
+UMN and NW</text>
+<text x="1.27" y="16.256" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center">VBat</text>
+<text x="1.270003125" y="13.716" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center">INT</text>
+<text x="1.27" y="11.176" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center">GND</text>
+<text x="1.27" y="8.636" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center">Vcc</text>
+<text x="1.270003125" y="6.223" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center">SDA</text>
+<text x="1.270003125" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center">SCL</text>
 </plain>
 <libraries>
 <library name="bschulz">
@@ -254,14 +264,14 @@
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="21"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="21"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="C0805">
@@ -269,21 +279,21 @@
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="21"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="21"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="21"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="21"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
 <package name="R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="21"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="21"/>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -292,8 +302,8 @@
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="21"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
@@ -487,23 +497,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="Linx" x="10.922" y="9.906" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="BAT-HLD-012-SMT" x="10.922" y="9.906" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C1" library="bschulz_passives" package="C0603" value="" x="13.081" y="17.399">
+<element name="C1" library="bschulz_passives" package="C0603" value="" x="13.081" y="17.399" smashed="yes">
 <attribute name="DIGIKEY" value="" x="13.081" y="17.399" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="13.081" y="17.399" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="13.081" y="17.399" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.446" y="15.494" size="1.27" layer="27"/>
 </element>
-<element name="C2" library="bschulz_passives" package="C0603" value="" x="10.033" y="17.399" rot="R180">
+<element name="C2" library="bschulz_passives" package="C0603" value="" x="10.033" y="17.399" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="" x="10.033" y="17.399" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="10.033" y="17.399" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="10.033" y="17.399" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="10.668" y="19.304" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J1" library="bschulz" package="1X06_SCREW" value="CONN_6SCREW_2.54" x="3.429" y="9.906" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="ED10565-ND" x="3.429" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="OnShore" x="3.429" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="OSTVN06A150" x="3.429" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="14.6812" y="8.3058" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="U$1" library="bschulz" package="SO08" value="MCP7940SOIC" x="10.287" y="10.414" rot="R180">
+<element name="U$1" library="bschulz" package="SO08" value="MCP7940SOIC" x="10.287" y="10.414" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="MCP7940N-I/SN-ND" x="10.287" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Microchip" x="10.287" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MCP7940N-I/SN" x="10.287" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
@@ -513,23 +524,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="" x="11.557" y="15.367" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="11.557" y="15.367" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C3" library="bschulz_passives" package="C0603" value="0.1uF" x="15.494" y="9.398" rot="R180">
+<element name="C3" library="bschulz_passives" package="C0603" value="0.1uF" x="15.494" y="9.398" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="490-6051-1-ND" x="15.494" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Murata" x="15.494" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GCM188R71E104KA57D" x="15.494" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C4" library="bschulz_passives" package="C0805" value="10uF" x="15.494" y="11.684" rot="R180">
+<element name="C4" library="bschulz_passives" package="C0805" value="10uF" x="15.494" y="11.684" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="490-6473-6-ND" x="15.494" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Murata" x="15.494" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM21BR61C106KE15K" x="15.494" y="11.684" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="bschulz_passives" package="R0603" value="10k" x="9.017" y="5.715">
+<element name="R1" library="bschulz_passives" package="R0603" value="10k" x="9.017" y="5.715" smashed="yes">
 <attribute name="DIGIKEY" value="" x="9.017" y="5.715" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="9.017" y="5.715" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="9.017" y="5.715" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE_PART" value="" x="9.017" y="5.715" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="bschulz_passives" package="R0603" value="10k" x="9.017" y="3.556">
+<element name="R2" library="bschulz_passives" package="R0603" value="10k" x="9.017" y="3.556" smashed="yes">
 <attribute name="DIGIKEY" value="" x="9.017" y="3.556" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="9.017" y="3.556" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="9.017" y="3.556" size="1.778" layer="27" display="off"/>
@@ -672,4 +683,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
